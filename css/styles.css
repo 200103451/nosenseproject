@@ -1,0 +1,271 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+    /* BACKGROUND SECTION */
+    
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    .main-background {
+        background: linear-gradient(100deg, #fcf762, #e42517, #000000);
+        background-size: 400% 400%;
+        animation: Gradient 15s ease infinite;
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0px;
+    }
+    /* END BACKGROUND SECTION */
+    
+    .main-content {
+        position: absolute;
+        margin-top: 25%;
+        top: 0;
+        left: 0;
+        text-align: center;
+        color: #EFEEF5;
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-words {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main-words p {
+        margin: 10px;
+        font-size: 70px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+    }
+    
+    .main-words a {
+        font-size: 35px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+    }
+    
+    .vynil {
+        top: 30%;
+        right: 50%;
+        position: absolute;
+        animation: rotation 8s linear infinite;
+        overflow: hidden;
+        opacity: 0.8;
+    }
+    
+    .main-button {
+        width: 240px;
+        height: 75px;
+        padding: 3px;
+        font-size: 10px;
+        background-color: black;
+        color: white;
+        border-radius: 18px;
+        border: 1px solid white;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: .3s;
+    }
+    /* HEADER SECTION */
+    
+    header {
+        width: 100%;
+        height: 50px;
+        top: 0;
+        position: absolute;
+        background-color: black;
+        color: #f5f5f5;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 17px;
+        font-weight: 800;
+        cursor: pointer;
+    }
+    
+    header .logo {
+        font-family: 'Damion', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        padding: 4.5px;
+    }
+    
+    header a {
+        background-color: black;
+        color: #f5f5f5;
+        padding: 14.5px;
+        transition: .3s;
+    }
+    
+    header a:hover {
+        background-color: white;
+        color: rgb(8, 8, 8);
+    }
+    /* END HEADER SECTION */
+    /* page1 container section */
+    
+    .page1-container {
+        background: linear-gradient(360deg, #ffffff, #000000);
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .page1-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        opacity: 0.8;
+        width: 80%;
+        margin: 0 auto;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 35px;
+        font-weight: 400px;
+    }
+    
+    .page1-info {
+        width: 80%;
+        background-color: black;
+        opacity: 0.7;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        color: white;
+        justify-content: center;
+    }
+    
+    .page1-info-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #pit {
+        font-size: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400px;
+    }
+    
+    .page1-info-buttons {
+        font-size: 15px;
+        font-family: 'Quicksand', sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    .page1-info-buttons p {
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    
+    #page1-img {
+        height: 300px;
+        width: auto;
+    }
+    /* end page1 */
+    /* FOOTER SECTION */
+    
+    footer {
+        background-color: white;
+        height: 200px;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        width: 100%;
+    }
+    
+    .footer-info {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footer-first {
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-family: 'Damion', sans-serif;
+        font-size: 50px;
+        font-weight: 800;
+    }
+    
+    .footer-first a {
+        cursor: pointer;
+    }
+    
+    .footer-second {
+        width: 50%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .footer-second a {
+        cursor: pointer;
+    }
+    
+    .footer-third {
+        width: 30%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    /* END FOOTER SECTION */
+    
+    button:hover {
+        border: 2.5px solid white;
+        border-radius: 0;
+    }
+    
+    @keyframes rotation {
+        0% {
+            opacity: 0.8;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: rotate(360deg);
+            opacity: 0.8;
+        }
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
